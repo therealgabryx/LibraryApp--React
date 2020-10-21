@@ -1,0 +1,127 @@
+.icon {
+  font-size: 20px;
+  color: gray;
+  margin: 15px;
+}
+
+.active {
+  color: black;
+}
+
+div.header {
+  margin: 0;
+  padding: 0;
+}
+
+div.header .row {
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin: 0;
+  padding: 3% 7.5%;
+}
+
+div.header .row div:nth-of-type(2) {
+  width: 60%;
+  text-align: left;
+  padding-left: 5%;
+  padding-top: 2%;
+}
+
+div.home-content {
+  margin: 0%;
+  padding: 0;
+  width: 100%;
+  min-height: 120vh;
+}
+
+div.home-content .featured {
+  margin: 5% 0;
+  min-height: 40vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.home-content .featured .Card {
+  margin: 5% 5% 10% 5%;
+  min-width: 50vw;
+}
+
+div.home-content .latest {
+  padding: 5%;
+  min-height: 50vh;
+}
+
+div.home-content .latest .title {
+  padding-left: 5%;
+  margin-bottom: 15%;
+}
+
+div.home-content .latest .Card {
+  margin: 10% 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+div.home-content .latest .Card .img img {
+  border-radius: 10px;
+}
+
+div.home-content .latest .Card .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+div.footer {
+  margin: 0 auto;
+  width: 100%;
+  background-color: white;
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
+  min-height: 7.5vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=index.css.map */
