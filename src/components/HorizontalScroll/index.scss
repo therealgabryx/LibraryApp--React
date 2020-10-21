@@ -1,0 +1,11 @@
+div.HorizontalScroll { 
+    // background-color: blue;
+    min-height: 50vh;
+    
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    white-space: nowrap;
+
+    padding: 3rem 0 3rem 1rem;
+} 

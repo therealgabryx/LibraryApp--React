@@ -12,8 +12,7 @@ import {
 } from 'react-router-dom';
 
 // components
-import Home from './components/Home';
-
+import Home from './pages/Home';
 
 function App() {
   return (
@@ -24,6 +23,9 @@ function App() {
             <ul>
               <li>
                 <Link to="/home">Home</Link>
+              </li>
+              <li>
+                <Link to="/home-rfc">Home rfc</Link>
               </li>
               <li>
                 <Link to="/search">Search</Link>

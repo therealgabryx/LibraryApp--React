@@ -1,0 +1,10 @@
+div.Section {
+  min-height: 50vh;
+  padding: 1rem;
+}
+
+div.Section .title {
+  padding: 1rem;
+  padding-bottom: 0;
+}
+/*# sourceMappingURL=index.css.map */

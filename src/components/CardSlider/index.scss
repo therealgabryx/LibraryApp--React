@@ -1,0 +1,23 @@
+div.CardSlider { 
+    // background-color: cyan; 
+    min-width: 13rem;
+    margin: 0 1rem; 
+
+    .ShardsCard { 
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+
+        img { 
+            border-radius: 10px;
+        } 
+    
+        .CardBody { 
+            padding-left: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        } 
+    } 
+}   

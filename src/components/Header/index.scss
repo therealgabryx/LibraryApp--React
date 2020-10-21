@@ -1,0 +1,17 @@
+div.Header { 
+    // background-color: rosybrown;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+    min-height: 10vh;
+    padding: 1rem 2.5rem 0 2.5rem;
+
+    .title { 
+       text-align: left; 
+       width: 50vw;
+       // background-color: cadetblue;
+       padding-top: 0.5rem;
+    } 
+}  
