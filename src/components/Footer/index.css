@@ -12,6 +12,13 @@ div.Footer {
   position: -webkit-sticky;
   position: sticky;
   bottom: 0;
-  padding: 1rem;
+  z-index: 10;
+  -webkit-box-shadow: 0px 0 15px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0 15px 0 rgba(0, 0, 0, 0.3);
+}
+
+div.Footer div a {
+  display: inline-block;
+  padding: 1rem 3rem;
 }
 /*# sourceMappingURL=index.css.map */

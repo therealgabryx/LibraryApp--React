@@ -1,12 +1,15 @@
 div.Header { 
-    // background-color: rosybrown;
+    background-color: white;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 10;
     color: black;
     min-height: 10vh;
-    padding: 1rem 2.5rem 0 2.5rem;
+    padding: 0 2.5rem 0 2.5rem;
 
     .title { 
        text-align: left; 

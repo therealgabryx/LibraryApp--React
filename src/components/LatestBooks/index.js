@@ -6,7 +6,7 @@ import Card from '../Card'
 
 export default function index() {
     return (
-        <div className="Section">
+        <div className="LatestBooks">
             <div className="title"> 
                 <h4><b>Latest Books</b></h4>  
             </div> 

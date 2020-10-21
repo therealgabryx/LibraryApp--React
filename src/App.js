@@ -1,6 +1,5 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import './App.css'
 
 import {
   BrowserRouter as Router,
@@ -9,10 +8,12 @@ import {
   Link,
   useParams,
   useRouteMatch
-} from 'react-router-dom';
+} from 'react-router-dom'
 
 // components
-import Home from './pages/Home';
+import Home from './pages/Home'
+import Saved from './pages/Saved'
+import Account from './pages/Account'
 
 function App() {
   return (
@@ -23,9 +24,6 @@ function App() {
             <ul>
               <li>
                 <Link to="/home">Home</Link>
-              </li>
-              <li>
-                <Link to="/home-rfc">Home rfc</Link>
               </li>
               <li>
                 <Link to="/search">Search</Link>
@@ -54,6 +52,14 @@ function App() {
 
         <Route exact path="/home">
           <Home/>
+        </Route>
+
+        <Route exact path="/saved">
+          <Saved/>
+        </Route> 
+
+        <Route exact path="/account">
+          <Account/>
         </Route>
 
         

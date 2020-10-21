@@ -3,13 +3,13 @@ import './index.css'
 
 // components
 import HorizontalScroll from '../HorizontalScroll'
-import Section from '../Section'
+import LatestBooks from '../LatestBooks'
 
 export default function index() {
     return (
         <div className="Content">
             <HorizontalScroll/>
-            <Section/>
+            <LatestBooks/>
         </div>
     )
 }
