@@ -8,8 +8,8 @@ import Footer from '../../components/Footer'
 
 export default function index() { 
     return ( 
-        <div className="Home"> 
-            <Header title={"Library"}/> 
+        <div className='Home'> 
+            <Header title='Library' look='primary'/> 
             <HomeContent/>
             <Footer currentPage='home'/>
         </div> 

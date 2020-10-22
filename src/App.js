@@ -10,10 +10,15 @@ import {
   useRouteMatch
 } from 'react-router-dom'
 
-// components
+// ** components ** //
+// standard
 import Home from './pages/Home'
 import Saved from './pages/Saved'
 import Account from './pages/Account'
+// alt header
+import Search from './pages/Search'
+import About from './pages/About'
+import BookInfo from './pages/BookInfo'
 
 function App() {
   return (
@@ -29,7 +34,7 @@ function App() {
                 <Link to="/search">Search</Link>
               </li>
               <li>
-                <Link to="/book-info">Book-info</Link>
+                <Link to="/bookInfo/:id">Book-info</Link>
               </li>
               <li>
                 <Link to="/saved">Saved</Link>
@@ -44,7 +49,7 @@ function App() {
                 <Link to="/signup">Signup</Link>
               </li>
               <li>
-                <Link to="/left-slider">left-slider</Link>
+                <Link to="/about">About</Link>
               </li>
             </ul>
           </div>
@@ -60,6 +65,18 @@ function App() {
 
         <Route exact path="/account">
           <Account/>
+        </Route>
+
+        <Route exact path="/search">
+          <Search/> 
+        </Route> 
+
+        <Route exact path="/about">
+          <About/>
+        </Route>
+        
+        <Route path='/bookInfo/'>
+          <BookInfo/>
         </Route>
 
         

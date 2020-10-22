@@ -3,21 +3,26 @@ div.CardSlider {
     min-width: 13rem;
     margin: 0 1rem; 
 
-    .ShardsCard { 
-        display: flex;
-        flex-direction: column;
-        padding: 0;
-        margin: 0;
+    a { 
+        text-decoration: none;
+        color: inherit;
 
-        img { 
-            border-radius: 10px;
-        } 
-    
-        .CardBody { 
-            padding-left: 1.5rem;
+        .ShardsCard { 
             display: flex;
             flex-direction: column;
-            justify-content: center;
+            padding: 0;
+            margin: 0;
+
+            img { 
+                border-radius: 10px;
+            } 
+        
+            .CardBody { 
+                padding-left: 1.5rem;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            } 
         } 
-    } 
+    }
 }   

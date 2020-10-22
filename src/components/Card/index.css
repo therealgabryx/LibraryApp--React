@@ -3,7 +3,12 @@ div.BookCard {
   margin: 2rem 0;
 }
 
-div.BookCard .ShardsCard {
+div.BookCard a {
+  text-decoration: none;
+  color: inherit;
+}
+
+div.BookCard a .ShardsCard {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -15,15 +20,15 @@ div.BookCard .ShardsCard {
   margin: 0;
 }
 
-div.BookCard .ShardsCard .img {
+div.BookCard a .ShardsCard .img {
   padding: 0;
 }
 
-div.BookCard .ShardsCard .img img {
+div.BookCard a .ShardsCard .img img {
   border-radius: 10px;
 }
 
-div.BookCard .ShardsCard .CardBody {
+div.BookCard a .ShardsCard .CardBody {
   padding-left: 1.5rem;
   display: -webkit-box;
   display: -ms-flexbox;

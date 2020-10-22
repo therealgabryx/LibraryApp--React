@@ -9,9 +9,9 @@ import Footer from '../../components/Footer'
 export default function index() {
     return (
         <div className='Account'>
-            <Header title='Account'/>
-            <AccountContent/>
+            <Header title='Account' look='primary'/>
+            <AccountContent/> 
             <Footer currentPage='account'/>
         </div>
-    )
-}
+    ) 
+} 

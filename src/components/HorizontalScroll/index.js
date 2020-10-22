@@ -2,7 +2,6 @@ import React from 'react'
 import './index.css'
 
 // components
-import Card from '../Card';
 import CardSlider from '../CardSlider'
 
 export default function index() { 
