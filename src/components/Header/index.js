@@ -12,7 +12,7 @@ export default function index(props) {
             { 
                 props.look === 'primary'  
                 ?   <div> 
-                        <Link to='/about'>
+                        <Link to='/about'> 
                             <FontAwesomeIcon icon={faBars} className='icon active'/>
                         </Link>
                     </div>

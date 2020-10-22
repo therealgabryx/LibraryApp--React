@@ -8,7 +8,7 @@ export default function index() {
     return (
         <div className='BookInfo'> 
             <Header title='Book Info' look='back'/>
-            BookInfo
+            
         </div>  
     )
 }

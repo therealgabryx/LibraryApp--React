@@ -1,0 +1,58 @@
+div.ProfileInfo {
+  min-height: 50vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  /* .emailToggler { 
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    } 
+ 
+    .collapsed { 
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }  */
+}
+
+div.ProfileInfo div .label {
+  display: inline-block;
+  padding: 0 0 0.5rem 1.2rem;
+}
+
+div.ProfileInfo .email {
+  margin: 5vh;
+}
+
+div.ProfileInfo .bio {
+  margin: 5vh;
+  margin-top: 0;
+}
+
+div.ProfileInfo .actions {
+  margin: 5vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=index.css.map */

@@ -1,6 +1,10 @@
 import React from 'react'
 import './index.css'
 
+// assets
+import img from './img/120x190.png'
+
+// components
 import { Card, CardBody, CardImg, CardTitle, CardText } from 'shards-react'
 import { Link } from 'react-router-dom'
 
@@ -10,7 +14,7 @@ export default function index() {
             <Link to='/bookInfo/someIDhere'> 
                 <Card className="ShardsCard">
                     <div className="img">
-                        <CardImg alt="CardImg" left src="https://place-hold.it/120x190"/>
+                        <CardImg alt="CardImg" left src={img}/>
                     </div> 
                     <CardBody className="CardBody">
                         <CardTitle>sample Title</CardTitle>

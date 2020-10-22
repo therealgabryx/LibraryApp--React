@@ -1,0 +1,15 @@
+div.ProfileMain {
+    // background-color: goldenrod;
+    min-height: 25vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 5vh;
+    // padding-bottom: 2vh;
+
+    img {
+        border-radius: 50%;
+        max-width: 30vw;
+    } 
+}  

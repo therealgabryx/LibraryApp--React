@@ -1,0 +1,23 @@
+div.ProfileMain {
+  min-height: 25vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding-top: 5vh;
+}
+
+div.ProfileMain img {
+  border-radius: 50%;
+  max-width: 30vw;
+}
+/*# sourceMappingURL=index.css.map */
