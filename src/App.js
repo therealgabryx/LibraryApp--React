@@ -1,6 +1,8 @@
 import React from 'react'
 import './App.css'
 
+// import './auth/auth.js'
+
 import {
   BrowserRouter as Router,
   Switch,

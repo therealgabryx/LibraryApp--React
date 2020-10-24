@@ -1,11 +1,25 @@
 import React from 'react'
 import './index.css'
 
+// auth 
+import { HandleSignup } from '../../auth/auth'
+
 // components
 import { Form, FormGroup, FormInput, Button } from 'shards-react'
 import { Link } from 'react-router-dom'
 
 export default function index() {
+    function HandleOnClick() {
+        const firstName = document.querySelector('#firstName').value
+        const lastName = document.querySelector('#lastName').value
+        const email = document.querySelector('#email').value
+        const password = document.querySelector('#password').value
+
+        // check if elements are null; if not, go on
+
+        HandleSignup(firstName, lastName, email, password)
+    }   
+
     return (
         <div className='SignupContent'> 
             <div className='info'>
@@ -16,7 +30,7 @@ export default function index() {
                 </h6> 
             </div>
             <div className='form'>
-                <Form> 
+                <Form id='signupForm'> 
                     <FormGroup> 
                         <label htmlFor='#firstName'>First Name</label> 
                         <FormInput id='firstName' placeholder='first name' type='text'/>  
@@ -37,7 +51,7 @@ export default function index() {
             </div>
 
             <div className='actions'>
-                <Button>Signup</Button>
+                <Button id='signupButton' onClick={HandleOnClick}>Signup</Button>
                 <Link to='/login'>or Log in here</Link>
             </div>
             
