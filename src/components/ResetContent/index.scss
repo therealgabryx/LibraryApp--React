@@ -1,0 +1,54 @@
+div.ResetContent { 
+    background-color: whitesmoke;
+    min-height: 80vh;
+
+    padding: 0 2rem 0 2rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    .info {
+        // background-color: lightcoral;
+        min-height: 10vh;
+        width: 100%;
+        max-width: 83vh;
+        margin: auto;
+        padding: 2rem 0;
+
+        h6 {
+            line-height: 1.6rem;
+        }
+    } 
+
+    .form { 
+        // background-color: lawngreen;
+        min-height: 10vh;
+        width: 100%;
+        max-width: 83vh;
+        margin: auto;
+        margin-top: 0;
+    } 
+
+    .actions {
+        // background-color: khaki;
+        min-height: 20vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5vh;
+        margin-bottom: 20vh;
+
+        button {
+            width: 100%;
+            max-width: 15rem;
+            margin-bottom: 1rem;
+        }       
+        
+        a {
+            color: inherit;
+            text-decoration: underline;
+        }
+    } 
+} 

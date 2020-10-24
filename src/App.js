@@ -21,6 +21,7 @@ import About from './pages/About'
 import BookInfo from './pages/BookInfo'
 import Signup from './pages/Signup'
 import Login from './pages/Login'
+import ResetPassword from './pages/ResetPassword'
 
 function App() {
   return (
@@ -52,6 +53,9 @@ function App() {
               </li>
               <li>
                 <Link to="/about">About</Link>
+              </li>
+              <li>
+                <Link to='/resetPassword'>Reset Password</Link>
               </li>
             </ul>
           </div>
@@ -87,6 +91,10 @@ function App() {
 
         <Route path='/login'>
           <Login/>
+        </Route> 
+
+        <Route path='/resetPassword'>
+          <ResetPassword/>
         </Route>
 
         

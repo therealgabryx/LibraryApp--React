@@ -25,7 +25,7 @@ export default function index() {
                         <label htmlFor='#password'>Password</label>
                         <FormInput id='password' type='password' placeholder='password'/>
                     </FormGroup>
-                    <Link to='resetPassword' className='reset'>Reset Password</Link>
+                    <Link to='/resetPassword' className='reset'>Reset Password</Link>
                 </Form>
             </div>
             <div className='actions'>
