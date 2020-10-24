@@ -19,6 +19,8 @@ import Account from './pages/Account'
 import Search from './pages/Search'
 import About from './pages/About'
 import BookInfo from './pages/BookInfo'
+import Signup from './pages/Signup'
+import Login from './pages/Login'
 
 function App() {
   return (
@@ -77,6 +79,14 @@ function App() {
         
         <Route path='/bookInfo/'>
           <BookInfo/>
+        </Route> 
+
+        <Route path='/signup'>
+          <Signup/>
+        </Route> 
+
+        <Route path='/login'>
+          <Login/>
         </Route>
 
         
