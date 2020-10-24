@@ -1,4 +1,56 @@
 div.SignupContent {
   background-color: whitesmoke;
-  min-height: 100vh;  
+  min-height: 85vh;
+
+  padding: 0 2rem 0 2rem;
+
+  display: flex;
+  flex-direction: column;
+
+  // align-items: center;
+  justify-content: space-around;
+
+  .info { 
+    min-height: 10vh;
+    padding: 2rem 0;
+    width: 100%;
+    max-width: 83vh;
+    margin: auto;
+
+    h6 { 
+      line-height: 1.6rem;
+    } 
+  } 
+
+  .form { 
+    min-height: 30vh;
+    width: 100%;
+    max-width: 83vh;
+    margin: auto;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+  } 
+
+  .actions { 
+    min-height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    // width: 100%;
+    // max-width: 83vw;
+
+    button { 
+      width: 100%;
+      max-width: 15rem;
+      margin-bottom: 1rem;
+    } 
+
+    a {
+      color: inherit;
+      text-decoration: underline;
+    }
+  }
+  
 } 
