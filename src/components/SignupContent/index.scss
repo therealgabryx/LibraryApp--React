@@ -6,8 +6,6 @@ div.SignupContent {
 
   display: flex;
   flex-direction: column;
-
-  // align-items: center;
   justify-content: space-around;
 
   .info { 
@@ -27,9 +25,6 @@ div.SignupContent {
     width: 100%;
     max-width: 83vh;
     margin: auto;
-    // display: flex;
-    // flex-direction: column;
-    // justify-content: center;
   } 
 
   .actions { 
@@ -38,8 +33,6 @@ div.SignupContent {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    // width: 100%;
-    // max-width: 83vw;
 
     button { 
       width: 100%;

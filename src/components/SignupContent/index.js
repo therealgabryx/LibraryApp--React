@@ -18,9 +18,13 @@ export default function index() {
             <div className='form'>
                 <Form> 
                     <FormGroup> 
-                        <label htmlFor='#username'>Username</label> 
-                        <FormInput id='username' placeholder='username'/> 
+                        <label htmlFor='#firstName'>First Name</label> 
+                        <FormInput id='firstName' placeholder='first name' type='text'/>  
                     </FormGroup> 
+                    <FormGroup>
+                        <label htmlFor='#lastName'>Last Name</label> 
+                        <FormInput id='lastName' placeholder='last name' type='text'/>
+                    </FormGroup>
                     <FormGroup> 
                         <label htmlFor='#email'>Email</label> 
                         <FormInput id='email' placeholder='mail@example.com' type='email'/> 

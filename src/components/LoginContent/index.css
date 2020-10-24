@@ -1,5 +1,73 @@
 div.LoginContent {
   background-color: whitesmoke;
-  min-height: 100vh;
+  min-height: 80vh;
+  padding: 0 2rem 0 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+div.LoginContent .info {
+  min-height: 10vh;
+  width: 100%;
+  max-width: 83vh;
+  margin: auto;
+  padding: 2rem 0;
+}
+
+div.LoginContent .info h6 {
+  line-height: 1.6rem;
+}
+
+div.LoginContent .form {
+  min-height: 30vh;
+  width: 100%;
+  max-width: 83vh;
+  margin: auto;
+  margin-top: 0;
+}
+
+div.LoginContent .form .group {
+  margin-top: 2rem;
+}
+
+div.LoginContent .form .reset {
+  display: inline-block;
+  margin: 1rem 0;
+}
+
+div.LoginContent .actions {
+  min-height: 20vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 3.5rem;
+}
+
+div.LoginContent .actions button {
+  width: 100%;
+  max-width: 15rem;
+  margin-bottom: 1rem;
+}
+
+div.LoginContent .actions a {
+  color: inherit;
+  text-decoration: underline;
 }
 /*# sourceMappingURL=index.css.map */
