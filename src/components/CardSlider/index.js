@@ -8,17 +8,17 @@ import img from './img/300x200.png'
 import { Card, CardBody, CardImg, CardTitle, CardText } from 'shards-react'
 import { Link } from 'react-router-dom'
 
-export default function index() {
+export default function index({ book }) {
     return ( 
         <div className="CardSlider"> 
-            <Link to='/bookInfo/someIDhere'>
+            <Link to={ '/bookInfo/'+ book.id }>
                 <Card className="ShardsCard">
-                    <CardImg alt="CardImg" top src={img}/> 
+                    <CardImg alt="CardImg" top src={ img }/> 
                     <CardBody className="CardBody">
-                        <CardTitle>sample Title</CardTitle>
-                        <CardText>sample Author</CardText>
-                        <CardTitle>0.00$</CardTitle>
-                    </CardBody>
+                        <CardTitle>{ book.title }</CardTitle>
+                        <CardText>{ book.author }</CardText>
+                        <CardTitle>{ book.price }$</CardTitle>
+                    </CardBody> 
                 </Card>
             </Link> 
         </div>

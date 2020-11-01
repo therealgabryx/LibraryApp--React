@@ -4,17 +4,18 @@ import './index.css'
 // components
 import Card from '../Card'
 
-export default function index() {
+export default function index({ books }) {
     return (
         <div className="LatestBooks">
             <div className="title"> 
                 <h4><b>Latest Books</b></h4>  
             </div> 
-            <Card/>
-            <Card/>
-            <Card/>
-            <Card/>
-            <Card/>
+            
+            {
+                books && books.map(book => {
+                    return <Card book={book} key={book.id}/>
+                }) 
+            }
         </div>
     )
 }

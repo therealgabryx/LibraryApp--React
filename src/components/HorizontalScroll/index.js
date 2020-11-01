@@ -4,14 +4,14 @@ import './index.css'
 // components
 import CardSlider from '../CardSlider'
 
-export default function index() { 
+export default function index({ books }) { 
+    
+
     return (
         <div className="HorizontalScroll"> 
-            <CardSlider/>
-            <CardSlider/>
-            <CardSlider/>
-            <CardSlider/>
-            <CardSlider/>
+            { books && books.map(book => {
+                return <CardSlider book={book} key={book.id}/>
+            }) }   
         </div> 
     ) 
-} 
+}   
